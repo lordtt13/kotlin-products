@@ -1,5 +1,6 @@
 *.jar
 *.idea
 *.class
+**gradle**
 
 META-INF/
