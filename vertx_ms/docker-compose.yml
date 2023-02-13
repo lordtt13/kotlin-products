@@ -1,0 +1,12 @@
+version: "3.5"
+services:
+  mysql:
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: abcd1234
+    volumes:
+      - my-datavolume:/var/lib/mysql
+volumes:
+  my-datavolume:
